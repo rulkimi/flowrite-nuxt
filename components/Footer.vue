@@ -4,11 +4,14 @@ const settings = useSettings();
 
 <template>
   <Bounded
-    as="header"
-    class="!py-4 md:!py-6 lg:!py-8"
+    as="footer"
+    class="!py-4 md:!py-6 lg:!py-8 bg-white"
   >
     <div class="flex gap-4 items-center justify-between flex-col sm:flex-row">
       <Logo />
+      <p class="text-xs">
+        &copy;{{ new Date().getFullYear() }} {{ settings?.data.site_title }}
+      </p>
       <nav>
         <ul class="flex">
           <li

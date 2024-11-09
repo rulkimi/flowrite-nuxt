@@ -23,5 +23,9 @@
     "eslint": "^8.57.1",
     "nuxt": "^3.13.2",
     "slice-machine-ui": "^2.10.2"
+  },
+  "dependencies": {
+    "@fontsource-variable/nunito": "^5.1.0",
+    "@fontsource-variable/nunito-sans": "^5.1.0"
   }
 }
